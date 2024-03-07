@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, ShoppingCartIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Link } from 'react-router-dom'
 
 const navigation = [
   { name: 'E-commerce', href: '#', current: true },
@@ -60,6 +61,7 @@ export default function Navbar({children}) {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                <Link to="/cart">
                 <button
                   type="button"
                   className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
@@ -70,6 +72,7 @@ export default function Navbar({children}) {
 
                   
                 </button>
+                </Link>
                 <span class=" items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium mb-7 -ml-2 z-10 text-blue-700 ring-1 ring-inset ring-blue-700/10">3</span>
 
                 {/* Profile dropdown */}
