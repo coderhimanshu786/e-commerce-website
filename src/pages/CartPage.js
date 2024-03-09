@@ -1,6 +1,6 @@
-import Cart from "../features/cart/Cart";
+import Cart from "../features/carts/Cart.js";
 
-export default function CreatePage() {
+export default function CartPage() {
   return (
     <div>
       <Cart></Cart>
