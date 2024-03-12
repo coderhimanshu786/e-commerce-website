@@ -277,7 +277,7 @@ export default function CheckoutPage() {
                 </button>
               </div>
 
-              <div className="border-b border-gray-900/10 pb-12">
+              <div className="border-b border-gray-400 pb-12">
                 <h2 className="text-base font-semibold leading-7 text-gray-900">
                    Address
                 </h2>
@@ -290,7 +290,7 @@ export default function CheckoutPage() {
                   {people.map((person) => (
                     <li
                       key={person.email}
-                      className="flex justify-between gap-x-6 py-5"
+                      className="flex justify-between gap-x-6 py-5 border-solid border-gray-900"
                     >
                       <div className="flex min-w-0 gap-x-4">
                         <img

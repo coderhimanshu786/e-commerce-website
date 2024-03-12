@@ -1,11 +1,11 @@
 import Navbar from "../features/navbar/Navbar";
-import ProductList from "../features/product-list/components/ProductList";
+import ProductDetail from "../pages/ProductDetailPage";
 
 export default function HomePage() {
   return (
     <div>
       <Navbar>
-        <ProductList></ProductList>
+        <ProductDetail></ProductDetail>
       </Navbar>
     </div>
   );

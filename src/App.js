@@ -11,6 +11,7 @@ import {
   // Route,
   // Link,
 } from "react-router-dom";
+import ProductDetail from "./features/product-list/components/productDetails";
 
 const router = createBrowserRouter([
   {
@@ -32,7 +33,11 @@ const router = createBrowserRouter([
   {
     path: "/checkout",
     element: <CheckoutPage></CheckoutPage>
-  }
+  },
+  {
+    path: "/product-detail",
+    element: <ProductDetail></ProductDetail>
+  },
 ]);
 
 export default function App() {

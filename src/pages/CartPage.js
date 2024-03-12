@@ -1,9 +1,9 @@
-import Cart from "../features/carts/Cart.js";
+import ECart from "../features/carts/eCart.js";
 
 export default function CartPage() {
   return (
     <div>
-      <Cart></Cart>
+      <ECart></ECart>
     </div>
   );
 }

@@ -36,7 +36,7 @@ const products = [
   },
 ];
 
-export default function Cart() {
+export default function ECart() {
   const [setOpen] = useState(true);
   // const count = useSelector(selectCount);
   // const dispatch = useDispatch();
